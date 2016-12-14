@@ -33,83 +33,23 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="AOT\DoNotUseReflectionEmitAnalyzer.cs" />
-    <Compile Include="AOT\DoNotUseReflectionEmitResources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>DoNotUseReflectionEmitResources.resx</DependentUpon>
-    </Compile>
     <Compile Include="AOT\DoNotUseRemotingAnalyzer.cs" />
-    <Compile Include="AOT\DoNotUseRemotingResources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>DoNotUseRemotingResources.resx</DependentUpon>
-    </Compile>
     <Compile Include="AOT\TypeGetTypeAnalyzer.cs" />
-    <Compile Include="AOT\TypeGetTypeResources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>TypeGetTypeResources.resx</DependentUpon>
-    </Compile>
     <Compile Include="CompareTag\UseCompareTagAnalyzer.cs" />
-    <Compile Include="CompareTag\UseCompareTagResources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>UseCompareTagResources.resx</DependentUpon>
-    </Compile>
     <Compile Include="Coroutines\DoNotUseCoroutinesAnalyzer.cs" />
-    <Compile Include="Coroutines\DoNotUseCoroutinesResources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>DoNotUseCoroutinesResources.resx</DependentUpon>
-    </Compile>
     <Compile Include="DiagnosticCategories.cs" />
     <Compile Include="DiagnosticDescriptors.cs" />
     <Compile Include="DiagnosticIDs.cs" />
     <Compile Include="EmptyMonoBehaviourMethods\EmptyMonoBehaviourMethodsAnalyzer.cs" />
-    <Compile Include="EmptyMonoBehaviourMethods\EmptyMonoBehaviourMethodsResources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>EmptyMonoBehaviourMethodsResources.resx</DependentUpon>
-    </Compile>
     <Compile Include="FindMethodsInUpdate\DoNotUseFindMethodsInUpdateAnalyzer.cs" />
-    <Compile Include="FindMethodsInUpdate\DoNotUseFindMethodsInUpdateResources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>DoNotUseFindMethodsInUpdateResources.resx</DependentUpon>
-    </Compile>
-    <Compile Include="ForEachInUpdate\DoNotUseForEachInUpdateResources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>DoNotUseForEachInUpdateResources.resx</DependentUpon>
-    </Compile>
     <Compile Include="ForEachInUpdate\DoNotUseForEachInUpdate.cs" />
     <Compile Include="IL2CPP\UnsealedDerivedClassAnalyzer.cs" />
-    <Compile Include="IL2CPP\UnsealedDerivedClassResources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>UnsealedDerivedClassResources.resx</DependentUpon>
-    </Compile>
     <Compile Include="MonoBehaviourInfo.cs" />
     <Compile Include="OnGUI\DoNotUseOnGUIAnalyzer.cs" />
-    <Compile Include="OnGUI\DoNotUseOnGUIResources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>DoNotUseOnGUIResources.resx</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RolsynExtensions.cs" />
     <Compile Include="StringMethods\DoNotUseStringMethodsAnalyzer.cs" />
-    <Compile Include="StringMethods\DoNotUseStringMethodsResources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>DoNotUseStringMethodsResources.resx</DependentUpon>
-    </Compile>
     <Compile Include="StringMethods\InvokeFunctionMissingAnalyzer.cs" />
-    <Compile Include="StringMethods\InvokeFunctionMissingResources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>InvokeFunctionMissingResources.resx</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="AOT\DoNotUseReflectionEmitResources.resx">
