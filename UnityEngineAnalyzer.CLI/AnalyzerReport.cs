@@ -36,7 +36,7 @@ namespace UnityEngineAnalyzer.CLI
                     FileName = diagnostic.Location.SourceTree.FilePath,
                     LineNumber = lineSpan.StartLinePosition.Line,
                     CharacterPosition = lineSpan.StartLinePosition.Character,
-                    Severity = (DiagnosticInfoSeverity)diagnostic.Severity
+                    Severity = (DiagnosticInfo.DiagnosticInfoSeverity)diagnostic.Severity
                 };
 
 
